@@ -11,7 +11,7 @@ Cursor is an AI-powered code editor built on top of VS Code, designed to enhance
 ## Key Features
 
 ### 1. AI Chat Assistant
-- **Access**: Use `Cmd+L` (Mac) or `Ctrl+L` (Windows/Linux) to open the chat panel or click the Toggle AI Pane in top right. <br/><br/>
+- **Access**: Use `Cmd+L` (Mac) or `Ctrl+L` (Windows/Linux) to open the chat panel or click the Toggle AI Pane in top right corner. <br/><br/>
 <div align="center">
     <img src="assets/ai_pane2.svg" height=""><br/>
     <em>Location of chat panel</em> <br/><br/>
@@ -28,21 +28,59 @@ Cursor is an AI-powered code editor built on top of VS Code, designed to enhance
 
 
 ### 3. Agent Mode
-- **Access**: Use `Cmd+L` (Mac) or `Ctr+K` (Windows/Linux) to open chat and switch to Agent mode in bottom left of chat window.
+- **Access**: Use `Cmd+L` (Mac) or `Ctr+L` (Windows/Linux) to open chat and switch to Agent mode in bottom left of chat window.
 - **Create with natural language**: Prompt what to create or changes to make in natural language and Agent will execute changes.
 - **File-wide changes**: Make complex modifcations across multiple files simultaneously using Agent mode.
 
-### 4. Codebase Understanding
+### 4. Inline Edits
+- **Access**: Use `Cmd+K` (Mac) or `Ctrl+K` (Windows/Linux) to open inline editor.
+- **Modify with natural language**: Select chunk of code or edit with natrual language. Describe changes and AI will execute.
+
+
+### 5. Codebase Understanding
 - **@Symbols**: Method to referencing code, files, documentation using the `@` symbol
     - Can reference:
-    - `@Files & folders`
-    - `@Code`
-    - `@Docs`
-    - `@Git`
-    - `@Past Chats`
-    - `@Cursor Rules`
-    - `@Web`
+    - `@Files & folders` - Add specific files and folders to context
+    - `@Code` -  Add certain lines of code to context
+    - `@Docs` - Add documentation from outside sources into context
+    - `@Git` - Add Git history, recent commits, etc. into context
+    - `@Past Chats` - Add past Cursor chats into context
+    - `@Cursor Rules` - Add rules into context
+    - `@Web` - Add web searches into context
 - **Context inclusion**: The AI can analyze your entire codebase for better suggestions
 - **Documentation generation**: Ask the AI to create documentation for your code
 
 ## Getting Started Workflow
+
+### 1. First Time Setup
+#### Install cursor command
+ - Open command palette `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) and search for `Insatll 'cursor' command`
+```bash
+# Open your project in Cursor
+cursor /path/to/your/project
+
+# Or create a new project
+mkdir my-new-project
+cd my-new-project
+cursor .
+```
+
+### 2. Basic Usage Examples
+
+#### Ask for Help
+- Open chat (`Cmd+L` for Mac or `Ctrl+L` for Windows/Linux) and ask questions like: "How does this function work?" while having a file(s) open
+-  Understand new codebases by opening codebase and ask questions like: "Summarize the purpose of this codebase"
+- Reference specific files: "Explain the logic in @example.py"
+- Get debugging help: "Why is this code throwing an error?"
+
+#### Generate Code
+- Start typing a function signature and press `Tab` to auto-complete
+- Use Inline editor (`Cmd+K` for Mac or `Ctrl+K` for Windows/Linux) to say: "Add error handling to this function"
+- Ask Agent in chat: "Write a function to validate email addresses"
+
+#### Refactor Code
+- Select code and use Inline Editor: "Refactor this to use modern JavaScript syntax"
+- Ask in chat: "How can I optimize this database query?"
+- Get suggestions: "What's a better way to structure this component?"
+
+## Best Practices

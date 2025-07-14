@@ -13,7 +13,7 @@ Cursor is an AI-powered code editor built on top of VS Code, designed to enhance
 ### 1. AI Chat Assistant
 - **Access**: Use `Cmd+L` (Mac) or `Ctrl+L` (Windows/Linux) to open the chat panel or click the Toggle AI Pane in top right. <br/><br/>
 <div align="center">
-    <img src="assets/ai_pane.svg" height=""><br/>
+    <img src="assets/ai_pane2.svg" height=""><br/>
     <em>Location of chat panel</em> <br/><br/>
 </div>
 

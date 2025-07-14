@@ -54,7 +54,7 @@ Cursor is an AI-powered code editor built on top of VS Code, designed to enhance
 
 ### 1. First Time Setup
 #### Install cursor command
- - Open command palette `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) and search for `Insatll 'cursor' command`
+ - Open command palette `Cmd+Shift+P` (Mac) or `Ctrl+Shift+P` (Windows/Linux) and search for `Install 'cursor' command`
 ```bash
 # Open your project in Cursor
 cursor /path/to/your/project

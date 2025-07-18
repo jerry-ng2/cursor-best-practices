@@ -102,6 +102,13 @@ cursor .
 </div>
 
 ### 3. Creating Rules
-- **Review suggestions**: Always create a set of rules to define tech stack, unit testing, and coding patterns
-- **Test thoroughly**: Run tests and verify functionality after AI assistance
-- **Maintain style**: Ensure AI suggestions match your project's coding standards
+- **Setup Rules**: Always create a set of rules to define tech stack, unit testing, coding patterns, etc.
+- **Be concise and descriptive**: Make sure to always be clear and descriptive when creating a rules file. It is recommended to keep rules file under 500 words.
+- **Types of Rules**: There are two types of rules, one that is applied globally and one that is applied to that specific project. Make sure when creating rules it is set to the right place.
+
+<div align="center">
+    <a href="https://drive.google.com/file/d/1yzmpnpUiJcDSS592OtDWx0mw5X_QtyHk/view?usp=sharing">
+        <img src="https://img.shields.io/badge/▶️-Watch%20Video-blue?style=for-the-badge" alt="Rules Video">
+    </a><br/>
+    <em>Click above to watch the video about creating rules</em>
+</div>

@@ -84,3 +84,28 @@ cursor .
 - Get suggestions: "What's a better way to structure this component?"
 
 ## Best Practices
+
+### 1. Effective Prompting
+- **Be specific**: Instead of "fix this", say "fix the null pointer exception in the getUserData function"
+- **Provide context**: Mention the programming language, framework, or specific requirements
+- **Use examples**: Show the AI what you want with concrete examples
+
+### 2. Leveraging Context
+- **Reference files**: Use `@filename` to include specific files in your conversation
+- **Context 
+- **Mention symbols**: Reference functions, classes, or variables with `@symbolName`
+- **Describe your goal**: Explain what you're trying to achieve, not just what's broken
+<br/><br/>
+<div align="center">
+    <img src="assets/context.png" height="100"><br/>
+    <em>Adding context to chat</em> <br/><br/>
+</div>
+
+### 3. Creating Rules
+- **Review suggestions**: Always create a set of rules to define tech stack, unit testing, and coding patterns
+- **Test thoroughly**: Run tests and verify functionality after AI assistance
+- **Maintain style**: Ensure AI suggestions match your project's coding standards
+<video width="640" height="360" controls>
+  <source src="assets/rules.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

@@ -105,7 +105,3 @@ cursor .
 - **Review suggestions**: Always create a set of rules to define tech stack, unit testing, and coding patterns
 - **Test thoroughly**: Run tests and verify functionality after AI assistance
 - **Maintain style**: Ensure AI suggestions match your project's coding standards
-<video width="640" height="360" controls>
-  <source src="assets/rules.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>

@@ -64,7 +64,7 @@ mkdir my-new-project
 cd my-new-project
 cursor .
 ```
-
+- If you have VS Code settings you would like to import, click the gear cog icon in the top right and under the `General` tab should be a button to import settings from VS Code
 ### 2. Basic Usage Examples
 
 #### Ask for Help
@@ -82,6 +82,7 @@ cursor .
 - Select code and use Inline Editor: "Refactor this to use modern JavaScript syntax"
 - Ask in chat: "How can I optimize this database query?"
 - Get suggestions: "What's a better way to structure this component?"
+
 
 ## Best Practices
 
@@ -105,10 +106,12 @@ cursor .
 - **Setup Rules**: Always create a set of rules to define tech stack, unit testing, coding patterns, etc.
 - **Be concise and descriptive**: Make sure to always be clear and descriptive when creating a rules file. It is recommended to keep rules file under 500 words.
 - **Types of Rules**: There are two types of rules, one that is applied globally and one that is applied to that specific project. Make sure when creating rules it is set to the right place.
-
+<br/><br/>
 <div align="center">
-    <a href="https://drive.google.com/file/d/1yzmpnpUiJcDSS592OtDWx0mw5X_QtyHk/view?usp=sharing">
-        <img src="https://img.shields.io/badge/▶️-Watch%20Video-blue?style=for-the-badge" alt="Rules Video">
-    </a><br/>
-    <em>Click above to watch the video about creating rules</em>
+    <img src="assets/cursor_rules.gif" height=""><br/>
+    <em>Creating global and project rules</em> <br/><br/>
 </div>
+
+### 4. Adding Cursor ignore
+- **Setup Cursor ignore** Always create a `.cursorignore` to ignore files or folders from the model's context. 
+- **Common ignores** By default, the `.env` is ignored. Add any files that contain secrets or API keys to the `.cursorignore` to prevent leaking sensitive data.

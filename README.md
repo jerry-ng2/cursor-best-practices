@@ -64,7 +64,11 @@ mkdir my-new-project
 cd my-new-project
 cursor .
 ```
-- If you have VS Code settings you would like to import, click the gear cog icon in the top right and under the `General` tab should be a button to import settings from VS Code
+- If you have VS Code settings you would like to import, click the gear cog icon in the top right and under the `General` tab should be a button to import settings from VS Code that include:
+    - Extensions
+    - Themes
+    - Settings
+    - Keybinds
 ### 2. Basic Usage Examples
 
 #### Ask for Help
@@ -93,8 +97,7 @@ cursor .
 
 ### 2. Leveraging Context
 - **Reference files**: Use `@filename` to include specific files in your conversation
-- **Context 
-- **Mention symbols**: Reference functions, classes, or variables with `@symbolName`
+- **Type of Context**: Reference files, folders, web searches, docs, terminal output by using the `@` symbol
 - **Describe your goal**: Explain what you're trying to achieve, not just what's broken
 <br/><br/>
 <div align="center">
@@ -113,5 +116,5 @@ cursor .
 </div>
 
 ### 4. Adding Cursor ignore
-- **Setup Cursor ignore** Always create a `.cursorignore` to ignore files or folders from the model's context. 
+- **Setup Cursor ignore** Always create a `.cursorignore` to ignore files or folders from the model's context.
 - **Common ignores** By default, the `.env` is ignored. Add any files that contain secrets or API keys to the `.cursorignore` to prevent leaking sensitive data.

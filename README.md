@@ -229,12 +229,11 @@ Model Context Protocol (MCP) allows you to extend Cursor's capabilities by conne
 #### What are MCPs?
 - **MCP (Model Context Protocol)**: Open standard that lets Cursor connect to external services
 - **Purpose**: Extend AI capabilities beyond code editing (databases, APIs, file systems, etc.)
-- **Flexibility**: Works with any service that can communicate via standard I/O or HTTP
 
 #### Setting Up MCP Servers
 
 ##### 1. Access MCP Settings
-- Open `Cursor Settings` → `Features` → `MCP`
+- Open `Cursor Settings` → `Tools & Integrations` → `MCP`
 - Click `+ Add New MCP Server`
 
 

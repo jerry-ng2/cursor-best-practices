@@ -129,12 +129,11 @@ cursor .
 "Explain this algorithm step by step: @selectedCode"
 "What are potential bugs in @currentFile?"
 "Suggest improvements for this function's performance"
-"Walk me through the data flow in @componentName"
 ```
 
 ### Testing and Documentation
 ```
-"Generate unit tests for @functionName"
+"Generate unit tests for [functionName]"
 "Write JSDoc comments for this class"
 "Create a README for @projectFolder"
 "Generate test cases covering edge cases for @selectedCode"

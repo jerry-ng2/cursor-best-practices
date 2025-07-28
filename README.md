@@ -225,6 +225,7 @@ cursor .
 - Create reusable prompt templates for common tasks
 - Save frequently used code generation patterns
 - Develop team-wide prompt libraries for consistency
+- See [cursor.directory](https://cursor.directory/) for examples and formats of custom prompts and rules.
 
 ### Integration with Version Control
 - Use `@Git` to reference commit history in conversations
@@ -260,6 +261,7 @@ Model Context Protocol (MCP) allows you to extend Cursor's capabilities by conne
 - **Automatic**: Agent mode will automatically use relevant MCP tools
 - **Manual**: Ask specifically for MCP tool usage: "Use the database tool to query users"
 - **Approval**: Review tool calls before execution (can disable in settings)
+- **List of Official MCP Tools**: See [Official Cursor MCP](https://docs.cursor.com/en/tools/mcp) to see all available official MCP servers
 
 
 
@@ -288,5 +290,5 @@ Model Context Protocol (MCP) allows you to extend Cursor's capabilities by conne
 - **Official Documentation**: [cursor.com/docs](https://cursor.com/docs)
 - **Official MCP Servers**: [Cursor MCP](https://docs.cursor.com/en/tools/mcp)
 - **Addition MCP Servers**: [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers)
-- **Community created Rules and MCP** [cursor.directory](https://cursor.directory/)
+- **Community created Rules and MCP**: [cursor.directory](https://cursor.directory/)
 

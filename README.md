@@ -2,6 +2,19 @@
 
 Cursor is an AI-powered code editor built on top of VS Code, designed to enhance your coding experience with intelligent assistance. This guide will help you get up and running quickly.
 
+## Table of Contents
+
+- [Installation](#installation)
+- [Essential Keyboard Shortcuts](#essential-keyboard-shortcuts)
+- [Key Features](#key-features)
+- [Configuration and Settings](#configuration-and-settings)
+- [Getting Started Workflow](#getting-started-workflow)
+- [Common Use Cases and Examples](#common-use-cases-and-examples)
+- [Best Practices](#best-practices)
+- [Advanced Features](#advanced-features)
+- [Common Issues and Solutions](#common-issues-and-solutions)
+- [Learning Resources](#learning-resources)
+
 ## Installation
 
 1. **Download Cursor**: Visit [cursor.com](https://cursor.com) and download the appropriate version for your operating system.
@@ -34,7 +47,7 @@ Cursor is an AI-powered code editor built on top of VS Code, designed to enhance
 ### 1. AI Chat Assistant
 - **Access**: Use `Cmd+L` (Mac) or `Ctrl+L` (Windows/Linux) to open the chat panel or click the Toggle AI Pane in top right corner. <br/><br/>
 <div align="center">
-    <img src="assets/ai_pane2.svg" height=""><br/>
+    <img src="assets/new_ai_pane.svg" height=""><br/>
     <em>Location of chat panel</em> <br/><br/>
 </div>
 
@@ -65,9 +78,11 @@ Cursor is an AI-powered code editor built on top of VS Code, designed to enhance
     - `@Git` - Add Git history, recent commits, etc. into context
     - `@Past Chats` - Add past Cursor chats into context
     - `@Cursor Rules` - Add rules into context
+    - `@Terminal` - Add terminal outputs into context
     - `@Web` - Add web searches into context
 - **Context inclusion**: The AI can analyze your entire codebase for better suggestions
 - **Documentation generation**: Ask the AI to create documentation for your code
+- See for [Common Use Cases and Examples](#common-use-cases-and-examples) to see how to leverage context
 
 ## Configuration and Settings
 
@@ -271,4 +286,7 @@ Model Context Protocol (MCP) allows you to extend Cursor's capabilities by conne
 ## Learning Resources
 
 - **Official Documentation**: [cursor.com/docs](https://cursor.com/docs)
+- **Official MCP Servers**: [Cursor MCP](https://docs.cursor.com/en/tools/mcp)
+- **Addition MCP Servers**: [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers)
+- **Community created Rules and MCP** [cursor.directory](https://cursor.directory/)
 
